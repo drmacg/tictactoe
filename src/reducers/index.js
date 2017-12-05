@@ -1,3 +1,5 @@
-// src/reducers/index.js
+import game from './game'
 
-export default {} // empty for now!
+export default {
+  game,
+}

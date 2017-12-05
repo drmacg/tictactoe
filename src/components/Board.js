@@ -5,8 +5,7 @@ class Board extends PureComponent {
   renderSquare(i) {
     return (
       <Square
-        value={this.props.squares[i]}
-        onClick={() => this.props.onClick(i)}
+        value={i}
       />
     );
   }
