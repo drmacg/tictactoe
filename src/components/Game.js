@@ -28,7 +28,9 @@ class Game extends PureComponent {
 
     let status;
     if (winner) {
-      status = "Winner: " + winner;
+      status = "Winner: " + winner
+      ;
+
     } else {
       status = "Next player: " + (this.props.game.xIsNext ? "X" : "O");
     }
