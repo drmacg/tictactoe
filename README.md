@@ -13,4 +13,4 @@ git clone git@github.com:gbosnjak/tictactoe.git
 cd tictactoe
 yarn install
 yarn start
-```bash
+```
